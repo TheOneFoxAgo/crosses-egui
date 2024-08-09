@@ -364,9 +364,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "crosses-core"
+version = "0.1.0"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "crosses-egui"
 version = "0.1.0"
 dependencies = [
+ "crosses-core",
  "eframe",
  "egui",
  "env_logger",
